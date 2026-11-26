@@ -23,8 +23,8 @@ This GitHub org is the open-source side of that. Expect practical, maintained re
 <!-- REPOS:START - this table is generated automatically from the org's public repos; edit repo descriptions on GitHub, not here -->
 | Repo | What it is |
 | --- | --- |
-| [awesome-web-scraping-skills](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-skills) | Coming soon. |
-| [awesome-web-scraping-mcp-servers](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-mcp-servers) | Coming soon. |
+| [awesome-web-scraping-skills](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-skills) | A curated, auto-ranked list of Agent Skills that teach Claude Code, Cursor, Codex and other AI agents to scrape the web. Stats refreshed daily. |
+| [awesome-web-scraping-mcp-servers](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-mcp-servers) | A curated, auto-ranked list of MCP servers that let Claude and other AI agents scrape the web: fetching pages, driving browsers, using proxies and extracting data. |
 <!-- REPOS:END -->
 
 More on the way. Star or watch the org to catch new releases.
