@@ -23,8 +23,8 @@ This GitHub org is the open-source side of that. Expect practical, maintained re
 <!-- REPOS:START - this table is generated automatically from the org's public repos; edit repo descriptions on GitHub, not here -->
 | Repo | What it is |
 | --- | --- |
-| [awesome-web-scraping-mcp-servers](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-mcp-servers) | A curated list of MCP servers for web scraping, so Claude and other AI agents can fetch pages, drive browsers, use proxies and extract data. |
-| [awesome-web-scraping-skills](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-skills) | A curated list of skills for Claude and other AI agents that help with web scraping: building scrapers, getting past anti-bot systems, extracting data and more. |
+| [awesome-web-scraping-skills](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-skills) | Coming soon. |
+| [awesome-web-scraping-mcp-servers](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-mcp-servers) | Coming soon. |
 <!-- REPOS:END -->
 
 More on the way. Star or watch the org to catch new releases.
