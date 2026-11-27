@@ -38,6 +38,23 @@ More on the way. Star or watch the org to catch new releases.
 - Benchmark results and tool comparisons
 - Insider takes from a team that scrapes for a living
 
+**Latest issues**
+
+<!-- NEWSLETTER:START - this list is generated automatically from Beehiiv; don't edit by hand -->
+- **[The Web Scraping Insider #11: Poisoned SERPs, 6 AMAs, 5,000 Reddit Members](https://thewebscrapinginsider.beehiiv.com/p/the-web-scraping-insider-11)** · Oct 26, 2026  
+  Poisoned Google results, six AMAs distilled into three takeaways, Reddit's RSS shutdown, and a 5.6 billion-video TikTok dataset.
+- **[The Web Scraping Insider #10: Proxy Shortlist, Google /goto, 3 AMAs](https://thewebscrapinginsider.beehiiv.com/p/the-web-scraping-insider-10)** · Sep 16, 2026  
+  A behind-the-scenes proxy provider shortlist, Google's new /goto result URLs, and 3 AMAs from across the scraping stack.
+- **[The Web Scraping Insider #9: Proxy Performance, Industry Shake-Ups & Browser Detection](https://thewebscrapinginsider.beehiiv.com/p/the-web-scraping-insider-9)** · Aug 7, 2026  
+  Proxy performance data, July’s biggest web scraping news, and CloakBrowser’s insights into browser fingerprints, bot detection, and stealth.
+- **[The Web Scraping Insider #8: Ethical Proxies Exposed, Residential Benchmarking, Custom Browsers War](https://thewebscrapinginsider.beehiiv.com/p/the-web-scraping-insider-8)** · Jun 29, 2026  
+  Why "ethical" residential proxies often aren't, Proxy Tester now benchmarks residential pools, and the rise of custom browsers rebuilt from Chromium up.
+- **[The Web Scraping Insider #7: Proxy Tester Launch, Real-Device Browsers Rise, 8 Cloudflare Methods Ranked](https://thewebscrapinginsider.beehiiv.com/p/the-web-scraping-insider-7)** · May 21, 2026  
+  The free Proxy Tester launches, real-device browser networks emerge, a stealth browser benchmark, and 8 Cloudflare bypass methods tested: only 3 work.
+
+[Browse all issues →](https://thewebscrapinginsider.beehiiv.com/archive)
+<!-- NEWSLETTER:END -->
+
 👉 [Subscribe here](https://thewebscrapinginsider.beehiiv.com)
 
 ## 💬 The community

@@ -6,7 +6,7 @@ on:
   workflow_dispatch:        # "Run workflow" button for an instant refresh
   push:
     branches: [main]
-    paths: ["scripts/update_repos.py", ".github/workflows/update-profile-readme.yml"]
+    paths: ["scripts/update_repos.py", "scripts/update_newsletter.py", ".github/workflows/update-profile-readme.yml"]
 
 permissions:
   contents: write
@@ -22,11 +22,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/update_repos.py
 
+      - name: Rebuild latest newsletter issues
+        run: python3 scripts/update_newsletter.py
+
       - name: Commit if changed
         run: |
           if git diff --quiet; then echo "Nothing to commit"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/README.md
-          git commit -m "Update projects table"
+          git commit -m "Update projects table and newsletter issues"
           git push
