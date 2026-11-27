@@ -12,6 +12,10 @@ import urllib.request
 ORG = os.environ.get("ORG", "The-Web-Scraping-Insider")
 README = os.environ.get("README_PATH", "profile/README.md")
 SKIP = {".github"}
+# Used only when a repo has no description set on GitHub
+FALLBACK_DESCRIPTIONS = {
+    "web-scraping-expert-amas": "Cleaned transcripts and a structured Q&A dataset from the expert AMAs on r/WebScrapingInsider: proxy providers, anti-bot engineers, AI-agent builders and more.",
+}
 
 
 def fetch_repos():
@@ -36,7 +40,7 @@ def build_table(repos):
     keep.sort(key=lambda r: (-r["stargazers_count"], r["created_at"]))
     rows = ["| Repo | What it is |", "| --- | --- |"]
     for r in keep:
-        desc = (r["description"] or "").replace("|", "\\|").strip() or "Coming soon."
+        desc = (r["description"] or FALLBACK_DESCRIPTIONS.get(r["name"], "")).replace("|", "\\|").strip() or "Coming soon."
         rows.append(f"| [{r['name']}]({r['html_url']}) | {desc} |")
     return "\n".join(rows)
 
