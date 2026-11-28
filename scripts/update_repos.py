@@ -12,10 +12,25 @@ import urllib.request
 ORG = os.environ.get("ORG", "The-Web-Scraping-Insider")
 README = os.environ.get("README_PATH", "profile/README.md")
 SKIP = {".github"}
-# Used only when a repo has no description set on GitHub
-FALLBACK_DESCRIPTIONS = {
-    "web-scraping-expert-amas": "Cleaned transcripts and a structured Q&A dataset from the expert AMAs on r/WebScrapingInsider: proxy providers, anti-bot engineers, AI-agent builders and more.",
-}
+ORG_YML = os.environ.get("ORG_YML", "shared/org.yml")
+
+
+def load_org_repos():
+    """Per-repo settings from shared/org.yml (the org's single source of truth).
+
+    Used for the fallback description and to flag repos that are public but not
+    ready to promote yet (footer: false) as work in progress.
+    """
+    try:
+        import yaml
+        with open(ORG_YML, encoding="utf-8") as f:
+            return {r["name"]: r for r in yaml.safe_load(f)["repos"]}
+    except Exception as e:  # keep the profile job working even without the file
+        print(f"warning: could not read {ORG_YML}: {e}")
+        return {}
+
+
+ORG_REPOS = load_org_repos()
 
 
 def fetch_repos():
@@ -40,7 +55,10 @@ def build_table(repos):
     keep.sort(key=lambda r: (-r["stargazers_count"], r["created_at"]))
     rows = ["| Repo | What it is |", "| --- | --- |"]
     for r in keep:
-        desc = (r["description"] or FALLBACK_DESCRIPTIONS.get(r["name"], "")).replace("|", "\\|").strip() or "Coming soon."
+        conf = ORG_REPOS.get(r["name"], {})
+        desc = (r["description"] or " ".join((conf.get("description") or "").split())).replace("|", "\\|").strip() or "Coming soon."
+        if conf and not conf.get("footer"):
+            desc = f"🚧 *Work in progress.* {desc}"
         rows.append(f"| [{r['name']}]({r['html_url']}) | {desc} |")
     return "\n".join(rows)
 

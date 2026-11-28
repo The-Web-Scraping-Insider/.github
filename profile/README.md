@@ -6,7 +6,7 @@
 
 From the [ScrapeOps](https://scrapeops.io) team: open-source tools, curated lists and field-tested insight for engineers and businesses scraping at scale.
 
-[📬 Newsletter](https://thewebscrapinginsider.beehiiv.com) · [💬 r/WebScrapingInsider](https://www.reddit.com/r/WebScrapingInsider) · [🎙️ AMAs](https://github.com/The-Web-Scraping-Insider/web-scraping-expert-amas) · [🌐 ScrapeOps](https://scrapeops.io)
+[📬 Newsletter](https://thewebscrapinginsider.beehiiv.com) · [💬 r/WebScrapingInsider](https://www.reddit.com/r/WebScrapingInsider) · [🧭 Hub](https://scrapeops.io/web-scraping-insider/) · [🎙️ AMAs](https://github.com/The-Web-Scraping-Insider/web-scraping-expert-amas) · [🌐 ScrapeOps](https://scrapeops.io)
 
 </div>
 
@@ -26,7 +26,7 @@ This GitHub org is the open-source side of that. Expect practical, maintained re
 | [awesome-web-scraping-skills](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-skills) | A curated, auto-ranked list of Agent Skills that teach Claude Code, Cursor, Codex and other AI agents to scrape the web. Stats refreshed daily. |
 | [awesome-web-scraping-mcp-servers](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-mcp-servers) | A curated, auto-ranked list of MCP servers that let Claude and other AI agents scrape the web: fetching pages, driving browsers, using proxies and extracting data. |
 | [web-scraping-expert-amas](https://github.com/The-Web-Scraping-Insider/web-scraping-expert-amas) | Cleaned transcripts and a structured Q&A dataset from the expert AMAs on r/WebScrapingInsider: proxy providers, anti-bot engineers, AI-agent builders and more. |
-| [awesome-scraping-tools](https://github.com/The-Web-Scraping-Insider/awesome-scraping-tools) | Coming soon. |
+| [awesome-scraping-tools](https://github.com/The-Web-Scraping-Insider/awesome-scraping-tools) | 🚧 *Work in progress.* Free, open-source add-ons and utilities for web scrapers: anti-bot recon, TLS impersonation, challenge solvers, API discovery, cleaning and monitoring. |
 <!-- REPOS:END -->
 
 More on the way. Star or watch the org to catch new releases.
@@ -91,6 +91,8 @@ We host regular **live AMAs** on r/WebScrapingInsider with founders and engineer
 ## 🤝 Contributing
 
 Found a great resource we're missing, or something out of date? Open an issue or PR on the relevant repo. Contributions from practitioners are very welcome.
+
+**Listed in one of our awesome lists?** Each list has a "listed in" badge you can add to your README: see the badge section in [Awesome Web Scraping Skills](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-skills#are-you-listed-add-the-badge) or [Awesome Web Scraping MCP Servers](https://github.com/The-Web-Scraping-Insider/awesome-web-scraping-mcp-servers#are-you-listed-add-the-badge).
 
 ---
 

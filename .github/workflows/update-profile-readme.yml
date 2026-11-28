@@ -6,7 +6,7 @@ on:
   workflow_dispatch:        # "Run workflow" button for an instant refresh
   push:
     branches: [main]
-    paths: ["scripts/update_repos.py", "scripts/update_newsletter.py", "scripts/update_amas.py", ".github/workflows/update-profile-readme.yml"]
+    paths: ["shared/org.yml", "scripts/update_repos.py", "scripts/update_newsletter.py", "scripts/update_amas.py", ".github/workflows/update-profile-readme.yml"]
 
 permissions:
   contents: write
@@ -16,6 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - run: pip install pyyaml
 
       - name: Rebuild projects table
         env:
