@@ -72,6 +72,8 @@ We host regular **live AMAs** on r/WebScrapingInsider with founders and engineer
 **Recent AMAs**
 
 <!-- AMAS:START - this list is generated automatically from web-scraping-expert-amas/data/amas.json; don't edit by hand -->
+- **Why Build Another Web Scraping API? with Dom Sakavickas and Casper of ScrapeBadger** · Dom Sakavickas & Casper (ScrapeBadger) · Nov 27, 2026 · 21 Q&As  
+  [Reddit thread](https://www.reddit.com/r/WebScrapingInsider/comments/1y3gh1m/) · [Transcript](https://github.com/The-Web-Scraping-Insider/web-scraping-expert-amas/blob/main/amas/17-dom-sakavickas-scrapebadger-scraping-api-business.md)
 - **Where Do Residential Proxies Come From? with Jason Grad of Massive** · Jason Grad (Massive) · Oct 29, 2026 · 22 Q&As  
   [Reddit thread](https://www.reddit.com/r/WebScrapingInsider/comments/1xf9hdj/) · [Transcript](https://github.com/The-Web-Scraping-Insider/web-scraping-expert-amas/blob/main/amas/15-jason-grad-massive-residential-proxies.md) · [Insights article](https://scrapeops.io/blog/where-residential-proxies-really-come-from/)
 - **The State of Web Scraping 2026 with Pierluigi Vinciguerra** · Pierluigi Vinciguerra (The Web Scraping Club / Data Boutique) · Oct 22, 2026 · 21 Q&As  
@@ -82,10 +84,8 @@ We host regular **live AMAs** on r/WebScrapingInsider with founders and engineer
   [Reddit thread](https://www.reddit.com/r/WebScrapingInsider/comments/1wy07fq/) · [Transcript](https://github.com/The-Web-Scraping-Insider/web-scraping-expert-amas/blob/main/amas/12-eric-goldman-web-scraping-law.md) · [Insights article](https://scrapeops.io/blog/is-web-scraping-legal-lessons-from-eric-goldman/)
 - **Bypassing Anti-Bot Systems with Ibrahim El Khalil Mlata, Anti-Bot Reverse Engineer** · Ibrahim El Khalil Mlata · Oct 1, 2026 · 30 Q&As  
   [Reddit thread](https://www.reddit.com/r/WebScrapingInsider/comments/1wp6d08/) · [Transcript](https://github.com/The-Web-Scraping-Insider/web-scraping-expert-amas/blob/main/amas/11-ibrahim-mlata-antibot-reverse-engineering.md) · [Insights article](https://scrapeops.io/blog/why-diagnosis-beats-more-stealth/)
-- **Scraping Difficult Websites at Scale with the Scrape.do Team** · Batuhan Özyön + team (Scrape.do) · Sep 22, 2026 · 29 Q&As  
-  [Reddit thread](https://www.reddit.com/r/WebScrapingInsider/comments/1wm6hz9/) · [Transcript](https://github.com/The-Web-Scraping-Insider/web-scraping-expert-amas/blob/main/amas/10-batuhan-ozyon-scrapedo-anti-bots-at-scale.md) · [Insights article](https://scrapeops.io/blog/inside-web-scraping-api-10-billion-pages-a-month/)
 
-[All 15 AMAs, transcripts and Q&A dataset →](https://github.com/The-Web-Scraping-Insider/web-scraping-expert-amas)
+[All 16 AMAs, transcripts and Q&A dataset →](https://github.com/The-Web-Scraping-Insider/web-scraping-expert-amas)
 <!-- AMAS:END -->
 
 ## 🤝 Contributing
